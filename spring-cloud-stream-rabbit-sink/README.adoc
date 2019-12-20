@@ -1,0 +1,10 @@
+
+ RabbitMQ Sink
+
+The "rabbit" Sink sinks receiving messages from RabbitMQ.
+
+Receives message from Source on queue : orders-exchange.orders-queue
+and then send to consumer queue : mphasis-consumer-queue
+
+From Rabbit dashboard you can read the queue - 
+http://localhost:15672/api/queues/%2f/mphasis-consumer-queue/get
